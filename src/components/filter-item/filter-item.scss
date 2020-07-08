@@ -1,0 +1,36 @@
+.filter-item-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .item-circle {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 2rem;
+    border: none;
+    margin-left: 0.5rem;
+  }
+
+  .item-name {
+    font-size: 1.15rem;
+    color: #70808c;
+    margin-left: 1.5rem;
+  }
+
+  .selected-name {
+    color: white;
+    font-weight: 500;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.selected-filter-item {
+  background-color: #acd2f4;
+  color: white;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}

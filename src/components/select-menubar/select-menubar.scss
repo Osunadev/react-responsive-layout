@@ -1,0 +1,14 @@
+.menubar-container {
+  background: #3992e3;
+  padding: 1rem 1rem 2rem 1rem;
+
+  .select-menu {
+    display: flex;
+    font-size: 2rem;
+    color: white;
+
+    .select-icon {
+      margin-left: 1.25rem;
+    }
+  }
+}

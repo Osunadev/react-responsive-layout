@@ -1,0 +1,23 @@
+.header-navbar {
+  background: #3992e3;
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+
+    .text {
+      color: white;
+      margin: 0 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .user-icon {
+      margin-left: 2rem;
+    }
+  }
+}
