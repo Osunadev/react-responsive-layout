@@ -1,0 +1,24 @@
+.empty-order-container {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .empty-container {
+    padding: 0 25%;
+    text-align: center;
+
+    .empty-order-msg {
+      font-size: 1.25rem;
+      color: #70808c;
+      text-align: center;
+    }
+
+    .empty-image {
+      width: 100%;
+      height: auto;
+      padding: 0 2.5%;
+      margin-top: 50%;
+    }
+  }
+}

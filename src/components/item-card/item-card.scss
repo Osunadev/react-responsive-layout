@@ -1,0 +1,51 @@
+.item-card-container {
+  background: white;
+  border-radius: 0.5rem;
+  margin: 0 1rem 1rem 0;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:nth-child(3n) {
+    margin: 0 0 1rem 0;
+  }
+
+  .color-stripe {
+    width: 2.25rem;
+    height: 5rem;
+    display: inline-block;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .item-info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .item-name {
+      font-size: 1.25rem;
+      color: #48525a;
+    }
+
+    .item-price {
+      font-size: 0.875rem;
+      color: #70808c;
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .item-card-container {
+    margin: 0.5rem 0;
+
+    &:nth-child(3n) {
+      margin: 0.5rem 0;
+    }
+  }
+}

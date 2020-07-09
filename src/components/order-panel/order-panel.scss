@@ -1,0 +1,19 @@
+.order-panel-container {
+  // We use position: relative, so that our
+  // child can have a position absolute with
+  // respect of its parent, instead of the html parent
+  position: relative;
+
+  .panel {
+    background: white;
+    box-shadow: 0px 4px 12px #00000058;
+    border-radius: 0.5rem;
+
+    width: 95%;
+    position: absolute;
+    top: -6.5rem;
+    right: 2rem;
+    // min-height: 500px;
+    height: 90vh;
+  }
+}

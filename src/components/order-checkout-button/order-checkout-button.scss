@@ -1,0 +1,24 @@
+.order-checkout-btn {
+  // 5.5rem is the height of the order-header
+  // 80% is the height of the empty order view
+  height: calc(100% - 80% - 5.5rem);
+  background: #dbe3ea;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  .btn-text {
+    color: #70808c;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+}

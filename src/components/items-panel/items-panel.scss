@@ -1,3 +1,24 @@
 .items-panel-container {
-  margin-right: 1.5rem;
+  margin: 0 2.5rem;
+
+  .items-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 1.5rem;
+    max-height: 65vh;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .items-panel-container {
+    order: 1;
+
+    .items-panel {
+      grid-template-columns: 1fr;
+      margin-top: 1rem;
+      max-height: 50vh;
+    }
+  }
 }
