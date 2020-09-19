@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-responsive-layout/static/css/main.b93262e3.chunk.css",
+    "main.js": "/react-responsive-layout/static/js/main.dafa17de.chunk.js",
+    "main.js.map": "/react-responsive-layout/static/js/main.dafa17de.chunk.js.map",
+    "runtime-main.js": "/react-responsive-layout/static/js/runtime-main.47eecb80.js",
+    "runtime-main.js.map": "/react-responsive-layout/static/js/runtime-main.47eecb80.js.map",
+    "static/js/2.18ff290b.chunk.js": "/react-responsive-layout/static/js/2.18ff290b.chunk.js",
+    "static/js/2.18ff290b.chunk.js.map": "/react-responsive-layout/static/js/2.18ff290b.chunk.js.map",
+    "index.html": "/react-responsive-layout/index.html",
+    "precache-manifest.ed8800b8b2f123a06a80807af11069e1.js": "/react-responsive-layout/precache-manifest.ed8800b8b2f123a06a80807af11069e1.js",
+    "service-worker.js": "/react-responsive-layout/service-worker.js",
+    "static/css/main.b93262e3.chunk.css.map": "/react-responsive-layout/static/css/main.b93262e3.chunk.css.map",
+    "static/js/2.18ff290b.chunk.js.LICENSE.txt": "/react-responsive-layout/static/js/2.18ff290b.chunk.js.LICENSE.txt",
+    "static/media/Blinky Empty Cart-01.png": "/react-responsive-layout/static/media/Blinky Empty Cart-01.cc168914.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47eecb80.js",
+    "static/js/2.18ff290b.chunk.js",
+    "static/css/main.b93262e3.chunk.css",
+    "static/js/main.dafa17de.chunk.js"
+  ]
+}
